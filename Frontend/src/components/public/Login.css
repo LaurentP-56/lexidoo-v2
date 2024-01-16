@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+
+
+
+.login-page {
+  padding: 20px;
+  border-radius: 2em;
+  box-shadow: 0 12px 15px 0 #00BCD4, 0 17px 50px 0 #fefeff;
+  display: flex;
+  flex-direction: column;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  -ms-border-radius: 2em;
+  -o-border-radius: 2em;
+}
+
+.login-logo {
+  width: 10rem;
+  margin-bottom: 20px;
+}
+.title {
+  text-transform: uppercase;
+  color:white;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 4px 0;
+  border-bottom: 2px solid #b21f1f;
+  margin-bottom: 20px;
+}
+.login-form {
+  width: 100%;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-icon {
+  color: #11ffff;
+  margin-right: 10px; /* Espacement entre l'icône et le champ de saisie */
+}
+
+.input-with-icon {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--input-border-color);
+  border-radius: 4px;
+  background-color: var(--input-background-color);
+}
+
+
+button {
+  width: 100%;
+  padding: 10px 24px;
+  border: none;
+  outline: none;
+  font-size: 0.9em;
+}
+
+.login-button {
+  background-image: linear-gradient(to right,  #1a2a6c,#b21f1f,#fdbb2d) !important;
+  background-size: 300% 100%;
+  transition: background-position 0.4s;
+  width: 100%;
+  padding: 10px;
+  margin-top: 1em;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.login-button:hover {
+  background-position: 100% 0;
+}
+
+.social-login {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.social-button i {
+  font-size: 20px;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-link a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,133 @@
+/* Styles globaux */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+/* Conteneur principal */
+.profile-wrapper {
+  display: flex;
+  flex-direction: column; /* Adjusted for vertical stacking */
+  align-items: center; /* Center align the content */
+  max-width: 900px;
+  margin: 20px auto; /* Increased margin for better spacing */
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 20px; /* Padding for internal spacing */
+}
+
+/* En-tête du profil */
+.profile-header {
+  display: flex;
+  flex-direction: column; /* Adjusted for vertical stacking */
+  align-items: center; /* Center align the content */
+  width: 100%;
+  background: #f9f9f9;
+  padding: 20px;
+  border-bottom: 1px solid #eaeaea; /* Added a border for separation */
+}
+
+/* Section avatar */
+.avatar-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align the avatar */
+  margin-bottom: 20px;
+}
+
+.profile-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.status-badge {
+  background: #4CAF50;
+  color: #fff;
+  border-radius: 15px;
+  padding: 5px 15px;
+  font-size: 0.75em;
+  margin-top: 10px;
+}
+
+/* Informations du profil */
+.profile-info {
+  display: flex;
+  flex-direction: column; /* Adjusted for vertical stacking */
+  align-items: center; /* Center align the content */
+  width: 100%;
+}
+
+.personal-info, .contact-info, .additional-info {
+  width: 100%; /* Full width for alignment */
+  text-align: center; /* Center the text */
+  margin-bottom: 10px; /* Space between info sections */
+}
+
+.personal-info h1, .personal-info h2, .contact-info p, .additional-info p {
+  font-size: 0.9em;
+  color: #333;
+  margin: 4px 0; /* Adjusted spacing */
+}
+
+.icon {
+  font-size: 1em;
+  margin-right: 8px;
+  color: #4a90e2;
+}
+
+/* Bouton de mise à jour du profil */
+.btn-update-profile {
+  padding: 8px 16px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+  margin-top: 20px; /* Added space above the button */
+}
+
+.btn-update-profile:hover {
+  background-color: #357abd;
+}
+
+/* Formulaires et groupes de formulaires */
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 5px; /* Added space below label */
+}
+
+.form-group input {
+  width: 100%;
+  /*Adjustedtofullwidth*/padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9em;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+/* Media queries pour la réactivité */
+@media (max-width: 768px) {
+  .profile-header, .profile-info {
+    flex-direction: column;
+    align-items: center;
+  }
+}

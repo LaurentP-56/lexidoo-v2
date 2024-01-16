@@ -1,0 +1,8 @@
+/* src/styles/index.css */
+
+/* Importez les fichiers CSS individuels */
+@import 'App.css';
+/*@import 'Button.css';
+@import 'Header.css';*/
+@import 'home.css';
+/* ... Ajoutez d'autres importations si nécessaire ... */

@@ -1,0 +1,93 @@
+
+.carousel .btn.btn-primary {
+    background: #0039cb;
+    border-radius: 15px;
+    width: 400px;
+    margin-bottom: 32px;
+    min-height: 60px;
+}
+
+.carousel .btn.btn-primary>span {
+    font-weight: 700;
+    font-size: 110%;
+}
+
+.step-title h1 {
+    font-size: 2.15rem;
+    font-weight: 600;
+}
+
+.step-title h4 {
+    font-weight: 300;
+}
+
+.carousel {
+    width: 500px;
+    margin: auto;
+}
+
+.step-choice {
+    text-align: center;
+}
+
+.question,
+.reponse {
+    text-align: center;
+}
+
+.question .header,
+.reponse .header {
+    border: 2px solid #0039cb;
+    border-radius: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: 500;
+    font-size: 120%;
+}
+
+.reponse .header {
+    margin-bottom: 32px;
+}
+
+.reponse .text {
+    font-weight: 500;
+    margin-bottom: 32px;
+    font-size: 140%;
+}
+
+.reponse .play-container {
+    margin-bottom: 32px;
+    font-size: 80%;
+}
+
+.reponse .play-container i {
+    color: #0039cb;
+    font-size: 5em;
+    margin-bottom: 8px;
+}
+
+.question .bouton-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 50%;
+    font-size: 85%;
+}
+
+.reponse .bouton-container {
+    margin: auto;
+    margin-top: 64px;
+    width: calc(100% - 64px);
+}
+
+.question .bouton-container .btn {
+    width: 100%;
+    margin-top: 16px;
+}
+
+.reponse .bouton-container .btn {
+    width: 100%;
+}
+
+.reponse .bouton-container .row>div {
+    padding: 0px 8px;
+}

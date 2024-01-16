@@ -1,0 +1,34 @@
+.timer-slider-container {
+    text-align: center;
+  }
+  
+  .temps-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .temps-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .temps-button.active {
+    background-color: #0056b3; /* Une couleur plus foncée pour le bouton actif */
+  }
+  
+  .temps-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .temps-description {
+    font-size: 0.9em;
+    opacity: 0.8;
+  }
+  
